@@ -1,7 +1,7 @@
 # REST API for Soil Data
 Rest API untuk Intern Test HARA/Dattabot
 
-Base url : [`http://localhost:3000`]
+**Base URL** : [`http://localhost:3000`]
 
 API List:
 * [getAllSoilData](#getAllSoilData)
@@ -52,7 +52,7 @@ Returns list of all soil data
 Returns list of soil data based on date
 
 **URL** : [`http://localhost:3000/soil/search-by-date/:date`]
-(http://localhost:3000/soil/search-by-date/2019-11-27)(http://localhost:3000/soil/search-by-date/2019-11-27)
+(http://localhost:3000/soil/search-by-date/2019-11-27)
 
 **Method** : `GET`
 
@@ -124,7 +124,7 @@ Adds soil data to database
 **Body Param** :
 ```json
 {
-	"date": "2019-11-27",
+    "date": "2019-11-27",
     "time": "23:00",
     "temp": 21,
     "ph": 6.2,
@@ -172,8 +172,8 @@ Update existing soil data
 **Body Param** :
 ```json
 {
-	"id": 17,
-	"date": "2019-11-30",
+    "id": 17,
+    "date": "2019-11-30",
     "time": "1:00",
     "temp": 22,
     "ph": 6.4,
@@ -217,7 +217,7 @@ Delete existing soil data
 **Body Param** :
 ```json
 {
-	"id": 17
+    "id": 17
 }
 ```
 
